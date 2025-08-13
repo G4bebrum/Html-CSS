@@ -1,0 +1,206 @@
+<!-- Digite "!" + Enter para construir o ínicio do site.-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>Anotações de Gabe</title> <!-- Título da guia.-->
+    <link rel="stylesheet" href="style.css"> <!-- linkar com CSS. -->
+    <style>body{
+        background:#300101bb  
+    }</style>
+</head>
+<body>
+
+    <h1>BEM-VINDO AO CADERNO DO GABE! (HTML & CSS - Módulo 1)</h1>
+
+<hr>
+
+<!-- TAGS, QUEBRAS DE LINHA, PARÁGRAFOS E SÍMBOLOS -->
+    <h2>Tags, quebras de linha, parágrafos e símbolos</h2>
+<hr>
+    <p>&lt;p&gt; - para criar parágrafos</p>
+    <p>&lt;hr&gt; - Para criar linhas</p> 
+    <p>&lt;u&gt; - Sublinhar textos</p> 
+    <p>&lt;address&gt; - Para endereçar endereços</p>
+    <p>&lt;style&gt; - Para utilizar parametros de CSS no HTML (Torna-se individual, há não ser que a TAG Style seja dentro de HEAD)</p>
+    <p>&#x + código da emojipédia - Para criar emojis <a href="https://emojipedia.org">Emojipedia</a></p>
+    <p>&lt;small&gt; - TAG para colocar textos pequenos</p>
+    <p>&lt;big&gt; - TAG para colocar textos maiores</p> <!--OBSOLETA-->
+    <p>&lt;pre&gt; - TAG para considerar os espaços dentro do código.</p>
+    <!-- &reg;  Marca Registrada -->
+    <!-- &copy;  Copyright -->
+    <!-- &trade;  Trademark -->
+
+<hr>
+
+<!-- Formatação de Textos -->
+    <h2>Formatação de Textos</h2>
+<hr>
+    <h3>Negrito / Destaque</h3> <!--Negrito / Destaque-->
+    <p>&lt;b&gt; - Nesta frase, temos um termo em <b>NEGRITO</b> usando a tag B</p>
+    <p>&lt;strong&gt; - Nesta frase, temos um termo em <strong>STRONG</strong> usando a tag STRONG</p>
+    <h3>Itálico / Ênfase</h3> <!--Itálico / Ênfase-->
+    <p>&lt;i&gt; - Nesta frase, temos um termo em <i>Itálico</i> usando a tag I</p>
+    <p>&lt;em&gt; - Nesta frase, temos um termo em <em>Ênfase</em> usando a tag EM</p>
+    <h3>Texto Marcado</h3> <!--Texto Marcado-->
+    <p>&lt;mark&gt; - Nesta frase, temos um <mark style="background-color: chartreuse;">texto marcado</mark> usando a tag MARK</p>
+    <h3>Texto Deletado / Texto Inserido</h3> <!--Texto Deletado / Texto Inserido-->
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado, usando a tag DEL.</p>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois, usando a tag INS.</p>
+    <h3>Texto sobrescrito</h3> <!--Texto Sobrescrito-->
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3, utilizamos a tag SUP</p>
+    <h3>Texto subscrito</h3> <!--Texto Subscrito-->
+    <p>Para inserir coisas do tipo H<sub>2</sub>O, utilizamos a tag SUB</p>
+<!-- CTRL + SHIFT + P: Envelopar (EMMET)-->
+
+<hr>
+
+<!-- HEADINGS -->
+     <h2>Headings</h2>
+<hr>
+     <h1>Título</h1>
+     <h2>Sub-título</h2>
+     <h3>Sub-sub-título</h3>
+     <h4>Sub-sub-sub-título</h4>
+
+<hr>
+
+<!--SITES COM IMAGENS SEM COPYRIGHT -->
+    <h2>Sites com Imagens sem Copyright</h2>
+<hr>
+    <p>TIPOS DE ARQUIVOS COMPATÍVEIS: PNG, JPEG, TIFF.</p>
+    <p>Sempre confira se a imagem tem copyright e é permitido modificações.</p>
+    <a href="https://unsplash.com">Unsplash</a><br>
+    <a href="https://www.pexels.com">Pexels</a><br>
+    <a href="https://www.pixabay.com">Pixabay</a><br>
+
+<hr>
+
+<!-- IMPLEMENTANDO IMAGENS --> <!-- Ctrl + Space = Para endereçar os arquivos dentro da pasta. Ex: Imagens.-->
+    <h2>Implementando Imagens ao Site</h2>
+<hr>
+    <p>PARA ADICIONAR UMA IMAGEM A UM SITE, É NECESSÁRIO UTILIZAR A TAG "img src="(Coloque o endereço de imagem ou Ctrl + Space)"</p>
+    <img src="g:\Captures\Xbox Cloud Gaming (Beta) em  Xbox.com - Google Chrome 24_02_2023 16_54_42.png" height="420" width="640"> <!-- Width (X) Height (Y), é preferível redimensionar no Photoshop -->
+    <p>Podemos também carregar imagens que estão em sub-pastas</p>
+    <img src="Imagens/IMG_8929.JPG" width="500" height="300">
+
+<hr> 
+
+<!-- FAVICON - Favorite Icon  -->
+    <h2>FAVICON - Favorite Icon</h2>
+<hr>
+    <p>Para criar um Icon, é necessário transformar a imagem em ícone.</p>
+    <p>Para adicionar um FAVICON, é só escrever em cima do TITLE "link rel="shortcut icon" href="favicon.ico" type="image/x-icon""</p>
+    <p>Banco de dados de ícones</p>
+    <a href="https://iconarchive.com">Iconarchive</a><br>
+    <p>Para criar um ICO usando Pixels</p>
+    <a href="https://favicon.cc">Favicon.cc</a><br>
+    <p>Para gerar um PNG to ICO</p>
+    <a href="https://favicon.io">Favicon.io</a><br>
+
+<hr>
+
+<!--Outras Formatações-->
+    <h2>Outras Formatações</h2>
+<hr>
+    <h3>Código-Fonte / Pré-formatação</h3>
+    <p>&lt;code&gt; - Usado para formatar um texto em código: O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre> <!--SHIFT + TAB - Volta a tabulação (espaço)-->
+        <p>
+        Rosas são vermelhas
+    Violetas são azuis
+            E isso é tudo.
+        </p>
+    </pre>
+    <h3>Citações</h3>
+    <p>&lt;q&gt; - Quote: Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+    <h3>Citações Completas</h3>
+    <p>Segundo C.C Hunter, em seu livro Eu e Esse Meu Coração:</p>
+        <img src="Imagens/81w-GCfqtjL._SY385_.jpg" width="120" height="172">
+        <blockquote cite="https://www.amazon.com.br/Eu-esse-meu-coração-Hunter/dp/8555391210#:~:text=Não%20faça%20nada%20de%20que,aprenda%20a%20se%20arrepender%20menos.">
+            Não faça nada de que vá se arrepender depois. Mas faça o suficiente para saber exatamente do que se arrependeria e aprenda a se arrepender menos.
+        </blockquote>
+    <h3>Abreviações</h3>
+    <p>&lt;abbr&gt; - Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h3>Texto Invertido</h3>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p> <!--rtl (Right to Left) ltr (Left to Right)-->
+
+<hr>
+
+<!--LISTAS OL E UL-->
+    <h2>Trabalhando com Listas</h2>
+    <h3>Listas Ordenadas</h3>
+    <p>Podemos usar a TAG OL para criar listas ordenadas. Cada item da lista devem estar envelopadas com a TAG LI</p>
+    <ol type="1" start="" style="color: aliceblue;"> <!--Type: tipo de numeração (1 A a I i). Start: Onde inicia a numeração-->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Estudar programação</li>
+        <li>Ler 5 páginas</li>
+        <li>Tocar violão</li>
+    </ol>
+    <h3>Listas Não Ordenadas</h3>
+    <p>Podemos usar a TAG UL para criar listar não ordenadas. Cada item da lista devem estar envelopadas com a TAG LI</p>
+    <ul type="square" style="color: aliceblue;"> <!--Disc, Circle, Square-->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Estudar programação</li>
+        <li>Ler 5 páginas por dia</li>
+        <li>Tocar violão</li>
+    </ul>
+<hr>
+
+<!--LISTAS MISTAS E DE DEFINIÇÃO-->
+    <h2>Listas Mistas</h2>
+    <h3>Meus jogos favoritos</h3>
+    <ol>
+        <li>Top 3</li>
+        <ol type="a">
+            <li>Minecraft</li>
+            <li>Red Dead Redemption 2</li>
+            <li>Far Cry 3</li>
+        </ol>
+        <li>outros 7</li>
+        <ol type="a">
+            <li>Silent Hill 2</li>
+            <li>Sonic the Hedgehog 2</li>
+            <li>Terraria</li>
+            <li>Gran Turismo</li>
+            <li>Black</li>
+            <li>ATV Offroad Fury 4</li>
+            <li>Ori and the Will of the Wisps</li>
+        </ol>
+    </ol>
+    <h2>Lista de Definição</h2>
+    <p>Para criar listas em definições, envelopa-se em TAG DL, TAG DT para título e TAG DD para definição.</p>
+    <dl>
+        <dt>HTML (Hypertext Markup language)</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS (Cascading Style Sheets)</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+    </dl>
+<hr>
+
+<!--LINKS E ÂNCORAS NO HTML-->
+    <H2>Links e Âncoras no HTML</H2>
+    <hr>
+    <h3>Usando Links Externos</h3>
+    <p>Você pode acessar o meu <a href="https://www.youtube.com/@Slemynho" target="_blank" rel="external">Canal</a> no YouTube</p>
+    <!-- href - Referência Hiper-texto. Para links--><!--target="_blank" rel="external" - Para abrir o link em uma nova aba-->
+    <h3>Usando Links Internos</h3>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar a <a href="página.html" rel="next">outra página</a></p><!--../ - Voltar uma página-->
+
+<hr>
+
+<!--LINKS DE DOWNLOAD-->
+    <h2>Links de Download</h2>
+    <hr>
+    <p>Para criar um link de download, é só criar um a href. extensão "type=application/pdf" e localizar o arquivo</p>
+    <a href="Download/Resident Evil Poster.pdf" type="application/pdf" download="Resident Evil Poster.pdf">Resident Evil Poster</a>
+
+<hr>
+
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Imagens Dinâmicas</h2>
+    <p>Tente abrir esse site me vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <p>source media="" srcset="" para redimensionar imagens em diferentes dispositivos ou tamanhos de navegadores</p>
+    <button>Hello</button>
+    <picture>
+    <!--Mobile-->  <source media="(max-width: 750px)" srcset="Imagens/Imagens Dinâmicas/1.png" type="image/png">  
+    <!--Tablet-->  <source media="(max-width: 1050px)" srcset="Imagens/Imagens Dinâmicas/2.png" type="image/png"> <!--Max-width - Se a tela for maior que X px, a imagem troca-->
+    <!--Computer-->  <img src="Imagens/Imagens Dinâmicas/3.png" alt="Imagem Grande">
+    </picture>
+</body>
+</html>
